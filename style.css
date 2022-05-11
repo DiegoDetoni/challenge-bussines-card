@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(241, 238, 238)
+}
+
+.card{
+
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 1px 20px;
+    background-image: url("imagens/backgorund.png");
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+.name{
+
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 50px;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.sites{
+
+    text-align: left;
+    list-style-position: inside;
+    text-decoration: none;
+}
+
+.instragram{
+
+    list-style-image: url(imagens/Insta.png);
+    padding: 5px;
+
+}
+
+.github{
+
+    list-style-image: url(imagens/Github.png);
+    padding: 5px;
+
+}
